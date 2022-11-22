@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        String mesaj = "bugun hava cok guzel";
+        //String mesaj = "bugun hava cok guzel";
         String yeniMesaj = sehir(); 
         System.out.println(yeniMesaj);
         int sayi = topla(15,5);
