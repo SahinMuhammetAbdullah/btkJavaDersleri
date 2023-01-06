@@ -54,7 +54,8 @@ public class Product {
         this.stockAmount = stockAmount;
     }
     public String getKod() {
-        return kod = this.name.substring(0,1) + id;
+        this.kod = this.name.substring(0,1) + id;
+        return kod;
     }
     
 }
