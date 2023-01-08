@@ -7,9 +7,14 @@ public class Main {
         product.setDescription("Asus Laptop");
         product.setPrices(4999.99);
         product.setStockAmount(3);
-        
+
+
         System.out.println(product.getKod());
 
+        Product product2 = new Product(1, "Pc", "Asus", 99999.99, 3, "mavi");
+        
+        System.out.println(product2.getName());
+        
         ProductManager productManager = new ProductManager();
         productManager.Add(product);
 

@@ -14,4 +14,8 @@ public class DortIslem {
     public int Bol(int sayi1, int sayi2) {
         return sayi1 / sayi2;
     }
+
+    public char[] Topla(int i, int j, int k) {
+        return null;
+    }
 }
